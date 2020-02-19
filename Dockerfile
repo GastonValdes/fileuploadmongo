@@ -10,6 +10,7 @@ COPY package*.json ./
 
 # Bundle app source
 COPY views views/
+COPY node_modules node_modules/
 COPY src src/
 
 RUN npm install
